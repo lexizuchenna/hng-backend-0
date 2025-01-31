@@ -11,6 +11,7 @@ This is a simple public API developed as part of the HNG12 Stage 0 Backend task.
 ## Technology Stack
 
 - **Framework**: Next.js (App Router)
+- **Runtime**: NodeJS
 - **Language**: TypeScript
 - **Hosting**: Vercel
 - **Version Control**: GitHub
@@ -20,18 +21,18 @@ This is a simple public API developed as part of the HNG12 Stage 0 Backend task.
 ### **Base URL:**
 
 ```
-https://your-vercel-deployment-url/api/info
+https://lexiz-hng-backend-0.vercel.app
 ```
 
-### **GET /api/info**
+### **GET /**
 
 #### Response Format (200 OK):
 
 ```json
 {
-  "email": "your-email@example.com",
+  "email": "lexizuchenna@example.com",
   "current_datetime": "2025-01-30T09:30:00Z",
-  "github_url": "https://github.com/yourusername/your-repo"
+  "github_url": "https://github.com/lexizuchenna/hng-backend-0.git"
 }
 ```
 
@@ -42,8 +43,8 @@ To run the API locally, follow these steps:
 ### **1. Clone the Repository**
 
 ```sh
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/lexizuchenna/hng-backend-0.git
+cd hng-backend-0.git
 ```
 
 ### **2. Install Dependencies**
@@ -61,7 +62,7 @@ npm run dev
 The API will be available at:
 
 ```
-http://localhost:3000/api/info
+http://localhost:3000
 ```
 
 ## Deployment
@@ -87,6 +88,6 @@ response.headers.set("Access-Control-Allow-Origin", "*");
 
 ## Author
 
-- **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- **Alexander**
+- GitHub: [@lexizuchenna](https://github.com/lexizuchenna)
 
